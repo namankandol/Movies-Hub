@@ -46,11 +46,11 @@ body{
   white-space: nowrap;
   gap: 45px;
   justify-content: space-between;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+/*   -ms-overflow-style: none; */
+/*   scrollbar-width: none; */
 }
 .movie-grid::-webkit-scrollbar {
-  display: none;
+/*   display: none; */
 }
 .movie-profile{
   width: 190px;
