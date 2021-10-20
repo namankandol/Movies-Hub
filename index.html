@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&display=swap" rel="stylesheet">   
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="#"/>
   <title>Movies Hub</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
       </div>
       <ul class="nav-links">
         <li>
-          <a href="#home">Home</a>
+            <input type="text" id="search" class="search" placeholder="Search Movies and Shows">
         </li>
         <li>
           <a href="#movies">Movies</a>
@@ -40,56 +41,80 @@
         <div class="line3"></div>
       </div>
   </nav>
-  <main>
-    <div id="home" class="section1">
-      <h1 class="welcome">Welcome to Movies Hub!</h1>
-      <p class="intro">Your one stop destination for the world of entertainment.</p>
-    </div>
-    <!-- MOVIES SECTION  -->
-    <div id="movies" class="movies-section section">
-      <h1 class="section-title">MOVIES</h1>
-      <div class="in-theaters">
-        <div class="sub-section-header">
-          <h3 class="sub-heading">IN THEATERS</h3>
-        </div>
-        <div class="movie-grid">
-        </div>
-      </div>
-    </div>
-    <!-- SHOWS SECTION  -->
-    <div id="shows" class="shows-section section">
-      <h1 class="section-title">TV SHOWS</h1>
-      <div class="airing-shows">
-        <div class="sub-section-header">
-          <h3 class="sub-heading">AIRING NOW</h3>
-        </div>
-        <div class="movie-grid">
-        </div>
-      </div>
-    </div>
+  <!-- SEARCH BAR  -->
+  <div id="searchBar" class="searchBar">
+    <ul class="searchList">
+    </ul>
+  </div>
 
-    <footer id="contact">
-      
-        <div class="contacts">
-            <p>MAIL : NAMANKANDOL@GMAIL.COM</p>
-            <p>MOBILE : +91-7988-817-724</p>
-        </div>
-        <div class="logo-footer">
-          <i class="fas fa-film fa-5x"></i>
-          <br>
-          Movies Hub
-        </div>
-        <div class="div">
-          <div class="social-links">
-              <a  href=""><i class="social-link fab fa-instagram fa-3x"></i></a>
-              <a  href=""><i class="social-link fab fa-facebook-f fa-3x"></i></a>
-              <a  href=""><i class="social-link fab fa-linkedin-in fa-3x"></i></a>
+
+    <main>
+      <div id="home" class="section1">
+        <h1 class="welcome">Welcome to Movies Hub!</h1>
+        <p class="intro">Your one stop destination for the world of entertainment.</p>
+      </div>
+
+      <!-- MOVIES SECTION  -->
+      <div id="movies" class="movies-section section">
+        <h1 class="section-title">MOVIES</h1>
+        <div class="in-theaters">
+          <div class="sub-section-header">
+            <h3 class="sub-heading">IN THEATERS</h3>
+            <p>Scroll →</p>
           </div>
-          <p class="copyright">DESIGNED AND MADE BY NAMAN KANDOL</p>
+          <div class="movie-grid scroll">
+          </div>
         </div>
-    </footer>
+        <div class="fan-fav">
+          <div class="sub-section-header">
+            <h3 class="sub-heading">FAN FAVOURITES</h3>
+            <p>Scroll →</p>
+          </div>
+          <div class="movie-grid scroll">
+          </div>
+        </div>
+        <div class="upcoming">
+          <div class="sub-section-header">
+            <h3 class="sub-heading">UPCOMING</h3>
+            <p>Scroll →</p>
+          </div>
+          <div class="movie-grid scroll">
+          </div>
+        </div>
+      </div>
+      <!-- SHOWS SECTION  -->
+      <div id="shows" class="shows-section section">
+        <h1 class="section-title">TV SHOWS</h1>
+        <div class="airing-shows">
+          <div class="sub-section-header">
+            <h3 class="sub-heading">AIRING NOW</h3>
+            <p>Scroll →</p>
+          </div>
+          <div class="movie-grid">
+          </div>
+        </div>
+      </div>
 
-
+      <!-- <footer id="contact">
+    
+          <div class="contacts">
+              <p>MAIL : NAMANKANDOL@GMAIL.COM</p>
+              <p>MOBILE : +91-7988-817-724</p>
+          </div>
+          <div class="logo-footer">
+            <i class="fas fa-film fa-5x"></i>
+            <br>
+            Movies Hub
+          </div>
+          <div class="div">
+            <div class="social-links">
+                <a  href=""><i class="social-link fab fa-instagram fa-3x"></i></a>
+                <a  href=""><i class="social-link fab fa-facebook-f fa-3x"></i></a>
+                <a  href=""><i class="social-link fab fa-linkedin-in fa-3x"></i></a>
+            </div>
+            <p class="copyright">DESIGNED AND MADE BY NAMAN KANDOL</p>
+          </div>
+      </footer> -->
     
   </main>
 
